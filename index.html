@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+        
+        <div id="header">
+            
+            <div>
+
+                <div id="name">Rejath T M</div>
+            <div class="bio">CS Undergraduate | Flutter Dev | Coder</div>
+            <div id="icons"><a href="http://www.linkedin.com/in/rejath13tm"><img class="icon" src="assets/linkedin.png" alt=""></a>
+                <a href="http://github.com/Rj777pain "><img class="icon" src="assets/github.png" alt=""></a>
+                <a href="mailto:rejathtm@gmail.com"><img class="icon" src="assets/gmail.png" alt=""></a>
+                
+                
+            </div>
+            </div>
+            
+            
+                
+            
+        </div> 
+
+    
+    <div  class="navbar" >
+        <div class="navitem"  id="about">About</div>
+        <div class="navitem" id="qualification">Qualification</div>
+        <div class="navitem" id="experience">Experience</div>
+        <div class="navitem" id="contact">Contact</div>
+        
+    </div>
+    <div id="main"></div>
+    
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $('#main').load("home.html");
+    document.getElementById('about').onclick=function(){
+        $('#main').load("home.html");
+    }
+    document.getElementById('qualification').onclick=function(){
+        $('#main').load("qualification.html");
+    }
+    document.getElementById('experience').onclick=function(){
+        $('#main').load("experience.html");
+    }
+    document.getElementById('contact').onclick=function(){
+        $('#main').load("contact.html");
+    }
+</script>
+</html>

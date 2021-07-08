@@ -1,0 +1,147 @@
+#header{
+    width: 100%;
+    margin-left: 50px;
+    height: 100px;
+    vertical-align: middle;
+    
+}
+
+#main{
+    width: 100%;
+    
+    
+}
+.bio{
+    font-size: 20px;
+    color:gray;
+    float: left;
+}
+.icon{
+    
+    margin-left: 10px;
+    height: 22px;
+    width: 22px;
+}
+#name{
+    color: #17639a;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.navbar{
+    
+    
+    margin: 0;
+    padding-left: 25%;
+    background: #313c44;
+    height: 30px;
+    align-content: center;
+    
+    
+}
+.navitem{
+    
+    width: 15%;
+    padding-top: 5px;
+    display: inline;
+    float: left;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    float: left;
+}
+body{
+    margin: 0px;
+}
+
+.page-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #07222f;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.div-body{
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.heading{
+    color: #267ba5;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.cont{
+    color: #38596b;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 20px;
+    
+}
+.cont-head{
+    color: #38596b;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+    
+    margin-bottom: 10px;
+}
+#about-bio{
+    
+    margin-bottom: 50px;
+    color: #737362;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: wavy;
+}
+
+.div-block{
+    
+    margin-bottom: 50px;
+}
+.skill-tile{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    float: left;
+    margin-left:10px;
+}
+.skill-icon{
+    height: 75px;
+    width: 75px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#ContactSubject{
+    height: 20px;
+    width: 400px;
+}
+
+#ContactBody{
+    height: 60px;
+    width: 400px;
+}
+#ContactSubmit{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background: #097591;
+    color: white;
+}
+.ContactInputDiv{
+    margin-top: 10px;
+}
